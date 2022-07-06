@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: url(/imagenes/diseno-de-paisaje-del-espacio-5771.webp); 
+    background-size: cover;
+    background-position:no-repeat ;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgba(38, 15, 121, 0.123);
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: rgba(37, 5, 153, 0.582);
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 1px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgba(255, 255, 255, 0)
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(11, 29, 131, 0.541);
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+textarea{
+    background-color: rgba(14, 42, 167, 0.342);
+    
+}
+
+ button[type="submit"]{
+        background: rgba(2, 16, 138, 0.829);
+        color: white;
+        padding: 10px;
+        font-family: 20px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+    
+
+    input::placeholder{
+        color: white;
+    }
+
+input:focus{
+    outline: none;
+    background-color: rgba(52, 21, 226, 0.329);
+}
+
+.formulario{
+    background: rgba(42, 67, 150, 0.9);
+    width: 950px;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+    text-align: justify;
+    border-radius: 5%;
+    margin-top: 90px;
+    
+}
+.t{
+    display: inline-block;
+    
+}
+
+.p{
+    display: inline-block;
+}
+
+.o{
+    margin-left: 9%;
+}
+
+input.f{
+    width: 99%;
+}
+
+.r{
+    float: right;
+    margin-right: 20%;
+}
+
+input.x{
+    width: 166%;
+}
+
+input.z{
+    width: 160%;
+}
+
+.but{
+    text-align: center;
+    margin-top: 10px;
+}
+
+input.k{
+    width: 130%;
+}
+
+input.w{
+    width: 130%;
+}
+
+input.e{
+    width: 130%;
+}
